@@ -13,3 +13,6 @@ Stateless Widget merupakan sebuah Widget yang tidak dapat dirubah dan tidak akan
 * Padding : Menambahkan padding atau empty space
 * Center : Memposisikan elemen ke tengah
 * Icon : Memberi icon ke sebuah elemen
+
+ ## Fungsi dari setState()
+setState merupakan cara flutter dalam membangun kembali widget dan turunan-turunannya yang terpengaruh pembangunan tersebut. setState memberi tahu bahwa keadaan internal objek ini telah berubah dan mungkin mempengaruhi tampilan user. Hal ini menyebabkan pembangunan ulang untuk objek Status ini. Jadi, jika status widget berubah, Anda harus memanggil setState untuk memicu pembangunan kembali tampilan dan segera melihat perubahan yang tersirat oleh status baru.
