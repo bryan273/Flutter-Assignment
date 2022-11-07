@@ -16,3 +16,6 @@ Stateless Widget merupakan sebuah Widget yang tidak dapat dirubah dan tidak akan
 
  ## Fungsi dari setState()
 setState merupakan cara flutter dalam membangun kembali widget dan turunan-turunannya yang terpengaruh pembangunan tersebut. setState memberi tahu bahwa keadaan internal objek telah berubah dan mungkin mempengaruhi tampilan user. Jadi, jika status widget berubah, kita harus memanggil setState untuk memicu pembangunan kembali tampilan, supaya bisa terlihat perubahan dari status baru.
+
+## Const dan final
+Const dan final merupakan modifier yang digunakan ketika nilai suatu variabel tetap dan tidak dapat diubah lagi. Perbedaan kedua _keyword_ tersebut terletak pada cara penggunaannya. const merupakan modifier yang digunakan untuk meng-_assign_ suatu value dari variabel sebelum runtime. Misal const a = 1. Jika kita mendeklarasikan value const setelah runtime berlangsung (misal: mengambil tanggal hari ini), maka hal ini tidak bisa dilakukan. Sedangkan, final merupakan modifier yang digunakan untuk meng-_assign_ value dari variabel setelah runtime, karena value belum diketahui sebelum runtime.
