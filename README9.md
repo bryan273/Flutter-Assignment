@@ -15,3 +15,11 @@ Kita bisa melakukan pengambilan JSON tersebut dan dikirimkan dalam bentuk HTTP r
 ## Mekanisme pengambilan data JSON sampai ditampilkan di Flutter
 Sebelum melakukan pengambilan, kita harus menspesifikasikan terlebih dahulu model yang akan digunakan untuk data. Setelah itu, dibuat suatu fungsi untuk melakukan fetching pada data yang memanfaatkan FetchBuilder untuk mengiterasi dan fetch setiap data. Data tersebut di fetch melalui request URL yang diinginkan dan mengembalikan sebuah response. Response tersebut akan diubah menjadi Dart object. Untuk setiap object tersebut , akan dilakukan looping dan disimpan pada sebuah list. Lalu, iterasi dari list tersebut digunakan untuk men-display data pada flutter
 
+## Implementasi:
+* Melakukan refactor pada seluruh page
+* Membuat sebuah page untuk menampilkan my watch list
+* Menambah my watch list page pada drawer
+* Membuat sebuah file untuk fetching data yang akan difetch melalui data JSON
+* Mengimplementasikan kode untuk melakukan http request data JSON
+* Membuat sebuah model yang akan digunakan dalam data kita
+* Mengisi my watch list page dengan iterasi data yang sudah di fetch 
