@@ -6,7 +6,7 @@ List<MyWatchListModel> listMyWatchListTotal = [];
 
 Future<List<MyWatchListModel>> fetchMyWatchList() async {
   var url =
-      Uri.parse('https://tugas-django-bryan-1.herokuapp.com/mywatchlist/json/');
+      Uri.parse('http://127.0.0.1:8000/mywatchlist/json/');
   var response = await http.get(
     url,
   );
